@@ -11,8 +11,7 @@
 
 
 En clase aprendimos que el **hardware** es la parte física del computador, es decir, todos los componentes que podemos tocar, como el teclado, el monitor, la memoria o el procesador.  
-Por otro lado, el **software** es la parte lógica o intangible, formada por los programas que dan instrucciones al hardware para realizar tareas específicas.  
-Sin el hardware, el software no podría ejecutarse, y sin el software, el hardware no sabría qué hacer.  
+Por otro lado, el **software** es la parte lógica o intangible, formada por los programas que dan instrucciones al hardware para realizar tareas específicas. Sin el hardware, el software no podría ejecutarse, y sin el software, el hardware no sabría qué hacer.  
 
 Como dato curioso, vimos que los primeros ejemplos de herramientas para representar datos o realizar cálculos fueron los **ábacos**, que mostraban de forma física los números.  
 Con el paso del tiempo, esas ideas evolucionaron hasta llegar a las computadoras modernas, que trabajan con **bits (0 y 1)**, los cuales son la base de toda la información digital.  
@@ -99,14 +98,12 @@ Durante esta unidad aprendí que la programación no solo se trata de escribir c
 nuevos para mí, como entender qué era exactamente un programa o cómo funcionaban las variables, pero poco a poco fui notando cómo todo encaja y tiene sentido. Comprendí que cada línea
 de código tiene un propósito, y que antes de programar hay que saber **planear y razonar los pasos** que seguirá la computadora.  
 
-También me llamó la atención aprender cómo el **software** se comunica con el **hardware**, y cómo gracias a los algoritmos podemos transformar ideas en soluciones reales.  
-Me di cuenta de que los algoritmos no solo existen en la programación, sino también en la vida diaria, cuando seguimos instrucciones o resolvemos problemas paso a paso.  
-Esa conexión entre el pensamiento lógico y lo cotidiano me ayudó a ver que programar no es algo tan distante ni complicado como parece al inicio.  
+También me llamó la atención aprender cómo el **software** se comunica con el **hardware**, y cómo gracias a los algoritmos podemos transformar ideas en soluciones reales. Me di cuenta
+de que los algoritmos no solo existen en la programación, sino también en la vida diaria, cuando seguimos instrucciones o resolvemos problemas paso a paso. Esa conexión entre el
+pensamiento lógico y lo cotidiano me ayudó a ver que programar no es algo tan distante ni complicado como parece al inicio.  
 
 Por último, entendí que aprender a programar requiere **constancia y práctica**, pero también curiosidad y ganas de descubrir cosas nuevas.  
-Esta unidad me dejó una base sólida y el interés por seguir explorando este mundo.  
-Ahora veo la programación como una herramienta poderosa que nos permite crear, imaginar y resolver problemas de formas que antes solo parecían posibles en teoría, aunque no ha sido
-facil por que algunos temas si no los comprendo a la primera, con la explicacion y materiales que brinda el profesor me he podido guiar y ir instruyendo poco a poco.  
+Esta unidad me dejó una base sólida y el interés por seguir explorando este mundo.Ahora veo la programación como una herramienta poderosa que nos permite crear, imaginar y resolver problemas de formas que antes solo parecían posibles en teoría, aunque no ha sido facil por que algunos temas si no los comprendo a la primera, con la explicacion y materiales que brinda el profesor me he podido guiar y ir instruyendo poco a poco.  
 
 ---
 
