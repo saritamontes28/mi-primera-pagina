@@ -95,8 +95,9 @@ Potencia: 10000
 <img width="888" height="496" alt="image" src="https://github.com/user-attachments/assets/cd3b729b-386f-4645-bfb9-cbf4dfebc262" />
 
 
-Durante esta unidad aprendí que la programación no solo se trata de escribir código, sino de **pensar de forma lógica, organizada y con paciencia**.  
-Al principio muchos conceptos eran nuevos para mí, como entender qué era exactamente un programa o cómo funcionaban las variables, pero poco a poco fui notando cómo todo encaja y tiene sentido. Comprendí que cada línea de código tiene un propósito, y que antes de programar hay que saber **planear y razonar los pasos** que seguirá la computadora.  
+Durante esta unidad aprendí que la programación no solo se trata de escribir código, sino de **pensar de forma lógica, organizada y con paciencia**. Al principio muchos conceptos eran
+nuevos para mí, como entender qué era exactamente un programa o cómo funcionaban las variables, pero poco a poco fui notando cómo todo encaja y tiene sentido. Comprendí que cada línea
+de código tiene un propósito, y que antes de programar hay que saber **planear y razonar los pasos** que seguirá la computadora.  
 
 También me llamó la atención aprender cómo el **software** se comunica con el **hardware**, y cómo gracias a los algoritmos podemos transformar ideas en soluciones reales.  
 Me di cuenta de que los algoritmos no solo existen en la programación, sino también en la vida diaria, cuando seguimos instrucciones o resolvemos problemas paso a paso.  
@@ -104,7 +105,8 @@ Esa conexión entre el pensamiento lógico y lo cotidiano me ayudó a ver que pr
 
 Por último, entendí que aprender a programar requiere **constancia y práctica**, pero también curiosidad y ganas de descubrir cosas nuevas.  
 Esta unidad me dejó una base sólida y el interés por seguir explorando este mundo.  
-Ahora veo la programación como una herramienta poderosa que nos permite crear, imaginar y resolver problemas de formas que antes solo parecían posibles en teoría, aunque no ha sido facil por que algunos temas si no los comprendo a la primera, con la explicacion y materiales que brinda el profesor me he podido guiar y ir instruyendo poco a poco.  
+Ahora veo la programación como una herramienta poderosa que nos permite crear, imaginar y resolver problemas de formas que antes solo parecían posibles en teoría, aunque no ha sido
+facil por que algunos temas si no los comprendo a la primera, con la explicacion y materiales que brinda el profesor me he podido guiar y ir instruyendo poco a poco.  
 
 ---
 
