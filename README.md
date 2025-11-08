@@ -1,71 +1,74 @@
 # mi-primera-pagina# 
-Unidad 1: Temas vistos en clase
+<h1 style="color:#3E8EDE;">Unidad 1: Fundamentos de Programación</h1>
 
-## Cómo surge el software a partir del hardware
-
-En clase aprendimos que el **hardware** es la parte física del computador, es decir, todos los componentes que podemos tocar, como el teclado, el monitor, la memoria o el procesador.  
-Por otro lado, el **software** es la parte lógica o intangible, formada por los programas que dan instrucciones al hardware para realizar tareas específicas.  
-Sin el hardware, el software no podría ejecutarse, y sin el software, el hardware no sabría qué hacer.
-
-Como dato interesante, vimos que los primeros ejemplos de herramientas para representar datos o realizar cálculos fueron los **ábacos**, que mostraban de manera física los números y operaciones.  
-A partir de esas ideas, con el tiempo surgieron las máquinas más complejas y finalmente las computadoras modernas, que utilizan **bits (ceros y unos)** para representar toda la información que procesan.
+Durante esta primera unidad aprendí los conceptos básicos que sirven como base para entender cómo funciona la programación. Comprendí que programar no solo consiste en escribir líneas de código, sino en **pensar de manera lógica, estructurada y ordenada** para resolver problemas.
 
 ---
 
-## Qué es un programa
+<h2 style="color:#2C7A7B;">¿Cómo surge el software a partir del hardware?</h2>
 
-Un **programa** es un conjunto de instrucciones escritas en un lenguaje de programación que le indican a la computadora qué hacer.  
-Estas instrucciones pueden resolver un problema, automatizar una tarea o realizar operaciones específicas.  
-En otras palabras, un programa es la forma en la que el programador traduce su lógica y pensamiento en algo que la máquina pueda ejecutar.
+El **hardware** es la parte física del computador, todo lo que podemos tocar: el teclado, el monitor, el procesador, la memoria, entre otros.  
+El **software**, en cambio, es la parte lógica o intangible: los programas, aplicaciones y sistemas que hacen que el hardware funcione.
 
----
-
-## Qué es un lenguaje de programación
-
-Un **lenguaje de programación** es un lenguaje formal que permite escribir algoritmos para controlar el comportamiento de una computadora.  
-Cada lenguaje tiene su propia sintaxis y reglas, pero todos cumplen el mismo propósito: permitir que las personas se comuniquen con las máquinas de una forma que estas puedan entender.
-
-### Tipos de lenguajes de programación
-
-- **Interpretados:** las instrucciones se traducen línea por línea.  
-  Ejemplos: Python, Perl, Bash.  
-- **Compilados:** las instrucciones se traducen todas juntas mediante un compilador.  
-  Ejemplos: C, C++.  
-- **Intermedios:** combinan características de los dos anteriores.  
-  Ejemplos: Java, Scala.
+Durante la clase vimos cómo el desarrollo del software comenzó desde los primeros intentos de representar los números físicamente, como el uso del **ábaco**, una de las formas más antiguas de realizar cálculos.  
+De esta forma, el software surge como una forma de dar **instrucciones precisas** al hardware, para que este ejecute tareas específicas.
 
 ---
 
-## Variables
+<h2 style="color:#2C7A7B;">¿Qué es un programa?</h2>
 
-Las **variables** son espacios en la memoria donde se pueden guardar datos que pueden cambiar durante la ejecución del programa.  
-Por ejemplo, podemos tener una variable para guardar un número, una palabra o un resultado.  
-Son fundamentales en la programación porque permiten almacenar y manipular la información, el profesor puso como ejemplo unos edificios 
-y apartamentos que hicieron de el tema un poco mas entendible y dinamico.
+Un **programa** es un conjunto de instrucciones escritas en un lenguaje de programación que le dicen al computador qué hacer paso a paso.  
+Estas instrucciones se diseñan con un objetivo específico, como sumar números, mostrar mensajes en pantalla o realizar cálculos más complejos.
 
 ---
 
-## Controladores de flujo
+<h2 style="color:#2C7A7B;">¿Qué es una variable?</h2>
 
-Los **controladores de flujo** son estructuras que permiten que el programa tome decisiones o repita acciones.  
-Por ejemplo, se pueden usar para ejecutar un bloque de código solo si se cumple una condición, o para repetir una acción varias veces.  
-Esto permite que los programas sean más dinámicos y respondan a diferentes situaciones.
+Una **variable** es un espacio en la memoria del computador donde se puede guardar información que puede cambiar durante la ejecución del programa.  
+Por ejemplo, si queremos almacenar un número, un texto o un resultado, usamos una variable con un nombre que la identifique.
 
 ---
 
-## 💻 Ejemplo en Python
+<h2 style="color:#2C7A7B;">Tipos de lenguajes de programación</h2>
 
-A continuación, un ejemplo básico que muestra **operadores aritméticos en Python**, tema que vimos en clase:
+Los lenguajes de programación se dividen en tres tipos principales según cómo se ejecutan las instrucciones:
 
-# Operadores aritméticos
+- **Interpretados:** Traducen las instrucciones una por una mientras el programa se ejecuta. Ejemplo: Python, Perl.  
+- **Compilados:** Traducen todas las instrucciones antes de ejecutar el programa. Ejemplo: C, C++.  
+- **Intermedios:** Combinan ambos métodos. Ejemplo: Java, Scala.
+
+---
+
+<h2 style="color:#2C7A7B;">Controladores de flujo</h2>
+
+Los **controladores de flujo** permiten que un programa tome decisiones o repita acciones según una condición.  
+Por ejemplo, con un **condicional** podemos ejecutar diferentes instrucciones dependiendo del valor de una variable, o con un **bucle**, repetir una tarea varias veces.  
+Estos conceptos son esenciales porque nos permiten crear programas que reaccionan a distintas situaciones.
+
+---
+
+<h2 style="color:#2C7A7B;">Ejemplo sencillo en Python</h2>
+
+```python
+# Ejemplo de variables y operaciones aritméticas
 
 x = 10
 y = 4
 
-print("Suma:", x + y)             # Operador de suma
-print("Resta:", x - y)            # Operador de resta
-print("Multiplicación:", x * y)   # Operador de multiplicación
-print("División:", x / y)         # División con resultado decimal
-print("División entera:", x // y) # División entera (sin decimales)
-print("Módulo:", x % y)           # Resto de la división
-print("Potencia:", x ** y)        # Exponente
+print("Suma:", x + y)
+print("Resta:", x - y)
+print("Multiplicación:", x * y)
+print("División:", x / y)
+
+```
+Durante esta unidad aprendí que la programación no solo se trata de escribir código, sino de pensar con lógica y estructura.
+Al inicio muchos conceptos eran nuevos para mí, como entender qué era exactamente un programa o cómo funcionaban las variables,
+pero poco a poco comprendí cómo todo encaja y tiene sentido.
+
+También me pareció interesante entender cómo el software se comunica con el hardware, y cómo los algoritmos permiten resolver
+problemas de manera ordenada. Descubrí que la programación está presente en todo lo que usamos, desde una aplicación hasta
+un simple cálculo automático.
+
+Por último, comprendí que aprender a programar requiere paciencia, constancia y práctica, pero también curiosidad y ganas de explorar.
+Esta unidad me dejó una base sólida y el interés por seguir aprendiendo. Hoy entiendo que programar no es solo para computadoras,
+sino una forma de pensar que ayuda a encontrar soluciones en cualquier ámbito.
