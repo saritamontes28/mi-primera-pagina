@@ -1,74 +1,106 @@
-# mi-primera-pagina# 
-<h1 style="color:#3E8EDE;">Unidad 1: Fundamentos de Programación</h1>
+# Creación de página personal en GitHub Pages
+<img width="978" height="465" alt="image" src="https://github.com/user-attachments/assets/092385ff-afec-48f7-96c3-0f0b1fbedb14" />
 
-Durante esta primera unidad aprendí los conceptos básicos que sirven como base para entender cómo funciona la programación. Comprendí que programar no solo consiste en escribir líneas de código, sino en **pensar de manera lógica, estructurada y ordenada** para resolver problemas.
-
----
-
-<h2 style="color:#2C7A7B;">¿Cómo surge el software a partir del hardware?</h2>
-
-El **hardware** es la parte física del computador, todo lo que podemos tocar: el teclado, el monitor, el procesador, la memoria, entre otros.  
-El **software**, en cambio, es la parte lógica o intangible: los programas, aplicaciones y sistemas que hacen que el hardware funcione.
-
-Durante la clase vimos cómo el desarrollo del software comenzó desde los primeros intentos de representar los números físicamente, como el uso del **ábaco**, una de las formas más antiguas de realizar cálculos.  
-De esta forma, el software surge como una forma de dar **instrucciones precisas** al hardware, para que este ejecute tareas específicas.
+*Tecnología en Desarrollo de Software — Reflexión y conceptos vistos en clase*  
 
 ---
 
-<h2 style="color:#2C7A7B;">¿Qué es un programa?</h2>
+## ¿Cómo surge el software a partir del hardware?
 
-Un **programa** es un conjunto de instrucciones escritas en un lenguaje de programación que le dicen al computador qué hacer paso a paso.  
-Estas instrucciones se diseñan con un objetivo específico, como sumar números, mostrar mensajes en pantalla o realizar cálculos más complejos.
+<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/bf76cc9a-3e5c-496c-aad7-cc3438e18b98" />
 
----
 
-<h2 style="color:#2C7A7B;">¿Qué es una variable?</h2>
+En clase aprendimos que el **hardware** es la parte física del computador, es decir, todos los componentes que podemos tocar, como el teclado, el monitor, la memoria o el procesador.  
+Por otro lado, el **software** es la parte lógica o intangible, formada por los programas que dan instrucciones al hardware para realizar tareas específicas.  
+Sin el hardware, el software no podría ejecutarse, y sin el software, el hardware no sabría qué hacer.  
 
-Una **variable** es un espacio en la memoria del computador donde se puede guardar información que puede cambiar durante la ejecución del programa.  
-Por ejemplo, si queremos almacenar un número, un texto o un resultado, usamos una variable con un nombre que la identifique.
-
----
-
-<h2 style="color:#2C7A7B;">Tipos de lenguajes de programación</h2>
-
-Los lenguajes de programación se dividen en tres tipos principales según cómo se ejecutan las instrucciones:
-
-- **Interpretados:** Traducen las instrucciones una por una mientras el programa se ejecuta. Ejemplo: Python, Perl.  
-- **Compilados:** Traducen todas las instrucciones antes de ejecutar el programa. Ejemplo: C, C++.  
-- **Intermedios:** Combinan ambos métodos. Ejemplo: Java, Scala.
+Como dato curioso, vimos que los primeros ejemplos de herramientas para representar datos o realizar cálculos fueron los **ábacos**, que mostraban de forma física los números.  
+Con el paso del tiempo, esas ideas evolucionaron hasta llegar a las computadoras modernas, que trabajan con **bits (0 y 1)**, los cuales son la base de toda la información digital.  
 
 ---
 
-<h2 style="color:#2C7A7B;">Controladores de flujo</h2>
+## ¿Qué es un programa?
 
-Los **controladores de flujo** permiten que un programa tome decisiones o repita acciones según una condición.  
-Por ejemplo, con un **condicional** podemos ejecutar diferentes instrucciones dependiendo del valor de una variable, o con un **bucle**, repetir una tarea varias veces.  
-Estos conceptos son esenciales porque nos permiten crear programas que reaccionan a distintas situaciones.
+Un **programa** es un conjunto de instrucciones escritas en un lenguaje de programación que le indican a la computadora qué hacer.  
+Estas instrucciones pueden resolver un problema, automatizar una tarea o realizar operaciones específicas.  
+En otras palabras, un programa es la forma en la que el programador traduce su lógica y pensamiento en algo que la máquina pueda ejecutar.  
 
 ---
 
-<h2 style="color:#2C7A7B;">Ejemplo sencillo en Python</h2>
+## ¿Qué es un lenguaje de programación?
+
+Un **lenguaje de programación** es una herramienta que permite escribir algoritmos para controlar el comportamiento de una computadora.  
+Cada lenguaje tiene su propia sintaxis y reglas, pero todos cumplen el mismo propósito: **comunicar al programador con la máquina**. 
+
+### Tipos de lenguajes de programación  
+
+<img width="712" height="356" alt="image" src="https://github.com/user-attachments/assets/3b0d44c9-53c5-4362-8372-c152bc064708" />
+
+| Tipo | Descripción | Ejemplos |
+|------|--------------|-----------|
+|**Interpretados** | Se traducen línea por línea. | Python, Perl, Bash |
+|**Compilados** | Se traducen todos juntos mediante un compilador. | C, C++ |
+|**Intermedios** | Combinan características de ambos tipos. | Java, Scala |
+
+---
+
+## Variables  
+
+Las **variables** son espacios en la memoria donde se pueden guardar datos que pueden cambiar durante la ejecución del programa.  
+Por ejemplo, se puede tener una variable para guardar un número, una palabra o un resultado.  
+Son esenciales porque permiten almacenar y manipular la información dentro de un programa, el profesor nos enseño mediante un ejemplo 
+de matematicas, edificios y apartamentos.  
+
+---
+
+## Controladores de flujo  
+
+Los **controladores de flujo** permiten que el programa tome decisiones o repita acciones según ciertas condiciones.  
+Gracias a ellos, los programas pueden responder de diferentes formas dependiendo de lo que ocurra.  
+Esto hace que los programas sean más dinámicos, organizados y útiles en distintas situaciones.  
+
+---
+
+## Ejemplo en Python  
+
+A continuación, un ejemplo básico que muestra **operadores aritméticos en Python**, tal como vimos en clase:  
 
 ```python
-# Ejemplo de variables y operaciones aritméticas
+
+# Operadores aritméticos
 
 x = 10
 y = 4
 
-print("Suma:", x + y)
-print("Resta:", x - y)
-print("Multiplicación:", x * y)
-print("División:", x / y)
+print("Suma:", x + y)             # Operador de suma
+print("Resta:", x - y)            # Operador de resta
+print("Multiplicación:", x * y)   # Operador de multiplicación
+print("División:", x / y)         # División con resultado decimal
+
+print("División entera:", x // y) # División entera (sin decimales)
+print("Módulo:", x % y)           # Resto de la división
+print("Potencia:", x ** y)        # Exponente
 
 ```
-Durante esta unidad aprendí que la programación no solo se trata de escribir código, sino de pensar con lógica y estructura.
-Al inicio muchos conceptos eran nuevos para mí, como entender qué era exactamente un programa o cómo funcionaban las variables,
-pero poco a poco comprendí cómo todo encaja y tiene sentido.
+## Reflexión personal 
 
-También me pareció interesante entender cómo el software se comunica con el hardware, y cómo los algoritmos permiten resolver
-problemas de manera ordenada. Descubrí que la programación está presente en todo lo que usamos, desde una aplicación hasta
-un simple cálculo automático.
+<img width="888" height="496" alt="image" src="https://github.com/user-attachments/assets/cd3b729b-386f-4645-bfb9-cbf4dfebc262" />
 
-Por último, comprendí que aprender a programar requiere paciencia, constancia y práctica, pero también curiosidad y ganas de explorar.
-Esta unidad me dejó una base sólida y el interés por seguir aprendiendo. Hoy entiendo que programar no es solo para computadoras,
-sino una forma de pensar que ayuda a encontrar soluciones en cualquier ámbito.
+
+Durante esta unidad aprendí que la programación no solo se trata de escribir código, sino de **pensar de forma lógica, organizada y con paciencia**.  
+Al principio muchos conceptos eran nuevos para mí, como entender qué era exactamente un programa o cómo funcionaban las variables, pero poco a poco fui notando cómo todo encaja y tiene sentido.  
+Comprendí que cada línea de código tiene un propósito, y que antes de programar hay que saber **planear y razonar los pasos** que seguirá la computadora.  
+
+También me llamó la atención aprender cómo el **software** se comunica con el **hardware**, y cómo gracias a los algoritmos podemos transformar ideas en soluciones reales.  
+Me di cuenta de que los algoritmos no solo existen en la programación, sino también en la vida diaria, cuando seguimos instrucciones o resolvemos problemas paso a paso.  
+Esa conexión entre el pensamiento lógico y lo cotidiano me ayudó a ver que programar no es algo tan distante ni complicado como parece al inicio.  
+
+Por último, entendí que aprender a programar requiere **constancia y práctica**, pero también curiosidad y ganas de descubrir cosas nuevas.  
+Esta unidad me dejó una base sólida y el interés por seguir explorando este mundo.  
+Ahora veo la programación como una herramienta poderosa que nos permite crear, imaginar y resolver problemas de formas que antes solo parecían posibles en teoría, aunque no ha sido facil por que algunos temas si no los comprendo a la primera, con la explicacion y materiales que brinda el profesor me he podido guiar y ir instruyendo poco a poco.  
+
+---
+
+*Autora: Sara Yahaira Montes Piedrahita*  
+*Tecnología en Desarrollo de Software*  
+*Profesor: Juan Camilo Macias Ramirez*
