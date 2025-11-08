@@ -10,11 +10,9 @@
 <img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/bf76cc9a-3e5c-496c-aad7-cc3438e18b98" />
 
 
-En clase aprendimos que el **hardware** es la parte física del computador, es decir, todos los componentes que podemos tocar, como el teclado, el monitor, la memoria o el procesador.  
-Por otro lado, el **software** es la parte lógica o intangible, formada por los programas que dan instrucciones al hardware para realizar tareas específicas. Sin el hardware, el software no podría ejecutarse, y sin el software, el hardware no sabría qué hacer.  
+En clase aprendimos que el **hardware** es la parte física del computador, es decir, todos los componentes que podemos tocar, como el teclado, el monitor, la memoria o el procesador. Por otro lado, el **software** es la parte lógica o intangible, formada por los programas que dan instrucciones al hardware para realizar tareas específicas. Sin el hardware, el software no podría ejecutarse, y sin el software, el hardware no sabría qué hacer.  
 
-Como dato curioso, vimos que los primeros ejemplos de herramientas para representar datos o realizar cálculos fueron los **ábacos**, que mostraban de forma física los números.  
-Con el paso del tiempo, esas ideas evolucionaron hasta llegar a las computadoras modernas, que trabajan con **bits (0 y 1)**, los cuales son la base de toda la información digital.  
+Como dato curioso, vimos que los primeros ejemplos de herramientas para representar datos o realizar cálculos fueron los **ábacos**, que mostraban de forma física los números. Con el paso del tiempo, esas ideas evolucionaron hasta llegar a las computadoras modernas, que trabajan con **bits (0 y 1)**, los cuales son la base de toda la información digital.  
 
 ---
 
