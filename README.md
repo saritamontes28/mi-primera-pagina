@@ -81,6 +81,14 @@ print("División entera:", x // y) # División entera (sin decimales)
 print("Módulo:", x % y)           # Resto de la división
 print("Potencia:", x ** y)        # Exponente
 
+Suma: 14
+Resta: 6
+Multiplicación: 40
+División: 2.5
+División entera: 2
+Módulo: 2
+Potencia: 10000
+
 ```
 ## Reflexión personal 
 
@@ -88,8 +96,7 @@ print("Potencia:", x ** y)        # Exponente
 
 
 Durante esta unidad aprendí que la programación no solo se trata de escribir código, sino de **pensar de forma lógica, organizada y con paciencia**.  
-Al principio muchos conceptos eran nuevos para mí, como entender qué era exactamente un programa o cómo funcionaban las variables, pero poco a poco fui notando cómo todo encaja y tiene sentido.  
-Comprendí que cada línea de código tiene un propósito, y que antes de programar hay que saber **planear y razonar los pasos** que seguirá la computadora.  
+Al principio muchos conceptos eran nuevos para mí, como entender qué era exactamente un programa o cómo funcionaban las variables, pero poco a poco fui notando cómo todo encaja y tiene sentido. Comprendí que cada línea de código tiene un propósito, y que antes de programar hay que saber **planear y razonar los pasos** que seguirá la computadora.  
 
 También me llamó la atención aprender cómo el **software** se comunica con el **hardware**, y cómo gracias a los algoritmos podemos transformar ideas en soluciones reales.  
 Me di cuenta de que los algoritmos no solo existen en la programación, sino también en la vida diaria, cuando seguimos instrucciones o resolvemos problemas paso a paso.  
