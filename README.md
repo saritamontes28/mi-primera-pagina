@@ -102,7 +102,8 @@ Por último, entendí que aprender a programar requiere **constancia y práctica
 Esta unidad me dejó una base sólida y el interés por seguir explorando este mundo.Ahora veo la programación como una herramienta poderosa que nos permite crear, imaginar y resolver problemas de formas que antes solo parecían posibles en teoría, aunque no ha sido facil por que algunos temas si no los comprendo a la primera, con la explicacion y materiales que brinda el profesor me he podido guiar y ir instruyendo poco a poco.  
 
 ## Referencias de IA
-ChatGPT: conversacion sobre si era posible poner stilo y color ademas de centrar el texto en README.md (https://chatgpt.com/c/690bd738-be58-8333-b70e-069b1cb1e753)
+ChatGPT: conversacion sobre si era posible poner stilo y color ademas de centrar el texto en README.md
+(https://chatgpt.com/c/690bd738-be58-8333-b70e-069b1cb1e753)
 ---
 
 *Autora: Sara Yahaira Montes Piedrahita*  
