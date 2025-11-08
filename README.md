@@ -19,8 +19,7 @@ Como dato curioso, vimos que los primeros ejemplos de herramientas para represen
 ## ¿Qué es un programa?
 
 Un **programa** es un conjunto de instrucciones escritas en un lenguaje de programación que le indican a la computadora qué hacer.  
-Estas instrucciones pueden resolver un problema, automatizar una tarea o realizar operaciones específicas.  
-En otras palabras, un programa es la forma en la que el programador traduce su lógica y pensamiento en algo que la máquina pueda ejecutar.  
+Estas instrucciones pueden resolver un problema, automatizar una tarea o realizar operaciones específicas. En otras palabras, un programa es la forma en la que el programador traduce su lógica y pensamiento en algo que la máquina pueda ejecutar.  
 
 ---
 
@@ -73,7 +72,6 @@ print("Suma:", x + y)             # Operador de suma
 print("Resta:", x - y)            # Operador de resta
 print("Multiplicación:", x * y)   # Operador de multiplicación
 print("División:", x / y)         # División con resultado decimal
-
 print("División entera:", x // y) # División entera (sin decimales)
 print("Módulo:", x % y)           # Resto de la división
 print("Potencia:", x ** y)        # Exponente
