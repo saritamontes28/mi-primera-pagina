@@ -106,6 +106,16 @@ ChatGPT: conversacion sobre si era posible poner stilo y color ademas de centrar
 
 ---
 
+Tarea 2 - Ejercicios Unidad 1
+```python
+# mi_tortuga.py
+
+import turtle
+
+t = turtle.Turtle()   # Crea una tortuga
+t.forward(100)        # Avanza 100 unidades
+turtle.done()         # Mantiene la ventana abierta
+
 *Autora: Sara Yahaira Montes Piedrahita*  
 *Tecnología en Desarrollo de Software*  
 *Profesor: Juan Camilo Macias Ramirez*
