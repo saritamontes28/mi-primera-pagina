@@ -106,7 +106,7 @@ ChatGPT: conversacion sobre si era posible poner stilo y color ademas de centrar
 
 ---
 # Ultima entrada
-*[Implementando la libreria turtle desde cero](./tareas/mi_tortuga.py)
+*[Implementando la libreria turtle desde cero](./mi_tortuga.py)
 
 ---
 *Autora: Sara Yahaira Montes Piedrahita*  
