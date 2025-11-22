@@ -105,7 +105,10 @@ Esta unidad me dejó una base sólida y el interés por seguir explorando este m
 ChatGPT: conversacion sobre si era posible poner stilo y color ademas de centrar el texto en README.md (https://chatgpt.com/c/690bd738-be58-8333-b70e-069b1cb1e753)
 
 ---
+# Ultima entrada
+*[Implementando la libreria turtle desde cero](./tareas/mi_tortuga.py)
 
+---
 *Autora: Sara Yahaira Montes Piedrahita*  
 *Tecnología en Desarrollo de Software*  
 *Profesor: Juan Camilo Macias Ramirez*
