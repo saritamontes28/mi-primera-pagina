@@ -28,9 +28,9 @@ simular_avance(10)
   * **`print("-" * n + ">")`**: Dibuja el rastro. El truco es multiplicar la cadena `"-"` por la variable `n`. El `>` representa la punta de la flecha o la cabeza de la tortuga.
   * **`input(...)`**: Se usa para forzar una pausa en la consola, simulando la espera de un evento en la ventana gráfica de `turtle`.
 
------
+### Resultado
 <img width="463" height="43" alt="image" src="https://github.com/user-attachments/assets/d343d0a0-3a93-408f-90da-f30657d41cbd" />
------
+
 -----
 
 ##  Reto 2: Tortuga bajando (Vertical)
@@ -62,10 +62,10 @@ simular_bajada(5)
   * **`for _ in range(n):`**: Un bucle `for` repite la impresión del carácter vertical.
   * **`print("|")`**: Dibuja la línea vertical (`|`) en su propia línea, simulando el avance hacia abajo.
   * **`print("V")`**: Se usa la letra `V` para representar la dirección final del movimiento (hacia abajo).
-
------
+    
+### Resultado
 <img width="449" height="123" alt="image" src="https://github.com/user-attachments/assets/ce35e55f-2397-49e2-8aa3-662511b3d289" />
------
+
 -----
 
 ##  Reto 3: Girar y dibujar (La 'L' alineada)
@@ -103,9 +103,9 @@ simular_l(5, 3)
   * **`margen_vertical = n_h`**: Esta variable es crucial. Almacena la longitud del trazo horizontal.
   * **`print(" " * margen_vertical + "|")`**: Se utiliza el margen (espacios) antes del carácter vertical (`|`). Esto **empuja** el trazo vertical hacia la derecha, alineándolo justo debajo del final del trazo horizontal (`>`), simulando el giro correcto de 90 grados.
 
------
+### Resultado
 <img width="286" height="107" alt="image" src="https://github.com/user-attachments/assets/068a9805-4529-430e-8d41-45ffd2e2e6ba" />
------
+
 -----
 
 ##  Reto 4: Encapsula los comportamientos usando funciones
@@ -159,7 +159,7 @@ abajo(3)
   * **`adelante(n)`**: Es responsable de **aumentar** `posicion_h`, moviendo la tortuga hacia la derecha.
   * **`abajo(n)`**: Es responsable de **calcular** la alineación (`posicion_h - 1`) y de **establecer** la nueva posición horizontal para el siguiente avance.
 
------
+### Resultado
 <img width="92" height="82" alt="image" src="https://github.com/user-attachments/assets/83100b24-e376-40b8-a7b8-58c465f4a94f" />
 
 -----
@@ -203,6 +203,7 @@ abajo(2)
     2.  `abajo(2)` se alinea con el nuevo punto y luego establece la posición para el siguiente avance.
     3.  La segunda llamada a `adelante(5)` comienza en una posición más a la derecha que la primera, creando el efecto visual de un **escalón descendente**.
 
------
+### Resultado
 <img width="300" height="216" alt="image" src="https://github.com/user-attachments/assets/fc6759ca-20e2-492b-b16d-96e7d4424158" />
+
 -----
