@@ -11,22 +11,14 @@ El objetivo es simular el comando `t.forward(10)` usando solo `print()` e `input
 
 ```python
 # Reto 1: Simula el avance horizontal
-def simular_avance(n):
-    """Simula el avance horizontal (t.forward) en la consola."""
-    print("-" * n + ">")
-    
-    # input() simula la pausa gráfica y el requerimiento de usar input().
-    input(f"Tortuga simulada avanzó {n} pasos. Presiona Enter para continuar.")
-
-# Ejecución
-simular_avance(10)
+print("-" * 10 + ">")
+input("Tortuga simulada avanzó 10 pasos. Presiona Enter para continuar.")
 ```
 
 ###  Explicación (Reto 1)
 
-  * **`def simular_avance(n):`**: Define una función que toma la longitud del movimiento (`n`) como argumento.
-  * **`print("-" * n + ">")`**: Dibuja el rastro. El truco es multiplicar la cadena `"-"` por la variable `n`. El `>` representa la punta de la flecha o la cabeza de la tortuga.
-  * **`input(...)`**: Se usa para forzar una pausa en la consola, simulando la espera de un evento en la ventana gráfica de `turtle`.
+* **`print("-" * 10 + ">")`**: Dibuja el rastro. El truco clave es multiplicar la cadena **`"-"`** por el número de pasos (**`10`**), lo que repite el guion diez veces. El **`+ ">"`** añade la punta de la flecha, representando la cabeza de la tortuga o la dirección del movimiento.
+* **`input(...)`**: Se usa para forzar una **pausa** en la consola. Esto simula la espera de un evento o la actualización de la ventana gráfica que se requiere después de cada movimiento en un entorno como `turtle`, asegurando que el usuario vea el avance antes de que el programa finalice.
 
 ### Resultado
 <img width="463" height="43" alt="image" src="https://github.com/user-attachments/assets/d343d0a0-3a93-408f-90da-f30657d41cbd" />
@@ -40,28 +32,25 @@ El objetivo es simular el rastro de la tortuga moviéndose **hacia abajo** (giro
 ###  Código (Reto 2)
 
 ```python
-# Reto 2: Simula el movimiento vertical hacia abajo
-def simular_bajada(n):
-    """Simula el movimiento vertical (hacia abajo) en la consola."""
-    
-    # Bucle para dibujar la longitud del trazo
-    for _ in range(n):
-        print("|")
-        
-    # Dibuja la flecha final
-    print("V")
-    
-    input(f"Tortuga simulada bajó {n} pasos. Presiona Enter para continuar.")
+# Simulación de los 5 pasos verticales
+print("|")
+print("|")
+print("|")
+print("|")
+print("|")
 
-# Ejecución
-simular_bajada(5)
+# Dibuja la punta de la flecha
+print("V")
+
+# Simula la pausa y la interacción
+input("Tortuga simulada bajó 5 pasos. Presiona Enter para continuar.")
 ```
 
 ###  Explicación (Reto 2)
 
-  * **`for _ in range(n):`**: Un bucle `for` repite la impresión del carácter vertical.
-  * **`print("|")`**: Dibuja la línea vertical (`|`) en su propia línea, simulando el avance hacia abajo.
-  * **`print("V")`**: Se usa la letra `V` para representar la dirección final del movimiento (hacia abajo).
+* Líneas Verticales: Cada instrucción print("|") representa **un paso hacia abajo**. Al repetir el print la cantidad de veces necesaria (en este caso, 5), se simula la longitud del trazo vertical del movimiento.
+* Punta de Flecha: La instrucción print("V") dibuja el indicador final del movimiento, actuando como la **punta de la flecha** que marca la dirección final.
+* Pausa: La función input(...) detiene la ejecución del programa. Esto simula la **pausa gráfica** necesaria para que el usuario pueda ver el movimiento antes de que la consola siga o finalice.
     
 ### Resultado
 <img width="449" height="123" alt="image" src="https://github.com/user-attachments/assets/ce35e55f-2397-49e2-8aa3-662511b3d289" />
@@ -77,31 +66,28 @@ El objetivo es simular un avance y un giro (`t.forward(100); t.right(90); t.forw
 ```python
 # Reto 3: Simulación de la forma "L" con alineación
 
-def simular_l(n_h, n_v):
-    """Dibuja un patrón en forma de L, alineando el vertical con el horizontal."""
-    
-    # 1. Movimiento horizontal
-    print("-" * n_h + ">")
-    
-    # Calculamos el margen necesario para alinear la bajada con la punta del ">".
-    margen_vertical = n_h 
-    
-    # 2. Movimiento vertical (alineado)
-    for _ in range(n_v):
-        print(" " * margen_vertical + "|")
-        
-    print(" " * margen_vertical + "V")
-    
-    input("Patrón en 'L' dibujado. Presiona Enter.")
+# 1. Movimiento Horizontal (5 pasos: 5 guiones + 1 >)
+print("-----" + ">")
 
-# Ejecución: 5 pasos horizontales y 3 verticales
-simular_l(5, 3)
+# El margen necesario para alinear la bajada es de 5 espacios (" " * 5)
+
+# 2. Movimiento Vertical (3 pasos hacia abajo, alineados con el margen)
+print("     " + "|")
+print("     " + "|")
+print("     " + "|")
+
+# Dibuja la punta de flecha 'V' alineada
+print("     " + "V")
+
+# Simula la pausa
+input("Patrón en 'L' dibujado. Presiona Enter.")
 ```
 
 ###  Explicación (Reto 3)
 
-  * **`margen_vertical = n_h`**: Esta variable es crucial. Almacena la longitud del trazo horizontal.
-  * **`print(" " * margen_vertical + "|")`**: Se utiliza el margen (espacios) antes del carácter vertical (`|`). Esto **empuja** el trazo vertical hacia la derecha, alineándolo justo debajo del final del trazo horizontal (`>`), simulando el giro correcto de 90 grados.
+* **Trazo Horizontal**: Se usa `print("-----" + ">")`. El truco de multiplicar la cadena (`"-" * 5`) se usa manualmente (escribiendo 5 guiones) para dibujar la línea base.
+* **Alineación Vertical**: Para alinear la línea vertical, se utiliza la **multiplicación de la cadena de espacio** (`" " * 5`) antes del símbolo vertical (`|`). La cantidad de espacios es **igual a la longitud** del trazo horizontal (5).
+* **Repetición Manual**: Como no podemos usar bucles, la instrucción `print("     " + "|")` debe repetirse **manualmente 3 veces** para simular los 3 pasos verticales.
 
 ### Resultado
 <img width="286" height="107" alt="image" src="https://github.com/user-attachments/assets/068a9805-4529-430e-8d41-45ffd2e2e6ba" />
@@ -176,7 +162,34 @@ El objetivo es usar las funciones del Reto 4 repetidamente para dibujar múltipl
 # Reiniciamos la posición para la simulación
 posicion_h = 0 
 
-# (Aquí se define de nuevo el código de adelante(n) y abajo(n))
+# --- DEFINICIÓN DE FUNCIONES ---
+def adelante(n):
+    """Dibuja el avance horizontal y actualiza la posición global."""
+    global posicion_h
+    
+    # Imprime con el margen y el trazo    
+    print(" " * posicion_h + "-" * n + ">")
+    
+    # Actualiza la posición: suma n (pasos) + 1 (la punta ">").    
+    posicion_h += n + 1 
+
+def abajo(n):
+    """Dibuja el descenso vertical, alineado con el trazo anterior, y conserva la posición."""
+    global posicion_h
+    
+    # Margen para alinear con el final del trazo anterior.    
+    margen_vertical = posicion_h - 1
+    
+    # Dibuja la línea vertical    
+    for _ in range(n):
+        print(" " * margen_vertical + "|")
+        
+    # Dibuja la flecha 'V'    
+    print(" " * margen_vertical + "V")
+    
+    # Conserva la posición: el siguiente 'adelante' debe empezar aquí.    
+    posicion_h = margen_vertical 
+# --- FIN DEFINICIÓN DE FUNCIONES ---
 
 # --- Ejecución del Reto 5: Bajar 3 escalones (adelante 5, abajo 2) ---
 
@@ -197,11 +210,34 @@ abajo(2)
 
 ###  Explicación (Reto 5)
 
-  * **Lógica en Secuencia:** La solución simplemente consiste en llamar a las dos funciones, `adelante(n)` seguido de `abajo(n)`, para dibujar un escalón completo.
-  * **Efecto de Escalera:** Gracias a la lógica de `posicion_h`:
-    1.  `adelante(5)` incrementa la posición.
-    2.  `abajo(2)` se alinea con el nuevo punto y luego establece la posición para el siguiente avance.
-    3.  La segunda llamada a `adelante(5)` comienza en una posición más a la derecha que la primera, creando el efecto visual de un **escalón descendente**.
+### 1. `def adelante(n):` (Movimiento Horizontal)
+
+Esta función se encarga de dibujar el peldaño del escalón y de actualizar la "memoria" horizontal para el siguiente movimiento.
+
+* **Dibujo (`print`)**: 
+    * `print(" " * posicion_h + "-" * n + ">")`
+    * Usa **`" " * posicion_h`** para crear un margen de espacios que **alinea** el nuevo trazo justo donde terminó el anterior.
+    * Dibuja el trazo (`"-" * n`) y la punta de flecha (`>`).
+* **Actualización de Memoria**: 
+    * `posicion_h += n + 1`
+    * La posición se actualiza sumando la longitud del trazo (`n`) más el carácter de la punta (`+ 1`). Esto prepara `posicion_h` para el inicio del siguiente segmento.
+
+---
+
+### 2. `def abajo(n):` (Movimiento Vertical)
+
+Esta función dibuja la altura del escalón, alineándola con precisión, y luego ajusta la "memoria" para el siguiente peldaño.
+
+* **Cálculo del Margen**: 
+    * `margen_vertical = posicion_h - 1`
+    * El margen se calcula restando **`- 1`** a la posición actual. Esto es esencial para que la línea vertical comience exactamente debajo de la punta (`>`) del trazo horizontal anterior.
+* **Dibujo Vertical**:
+    * Usa un bucle (`for _ in range(n)`) para dibujar **`n`** líneas verticales (`|`).
+    * Cada línea se imprime con el margen calculado: `print(" " * margen_vertical + "|")`.
+    * Dibuja la punta `V` final alineada.
+* **Conservación de Memoria (Clave)**: 
+    * `posicion_h = margen_vertical`
+    * La posición horizontal se establece en el margen (`posicion_h - 1`). Esto asegura que el próximo llamado a `adelante(n)` comience el nuevo peldaño justo en la base de la pared vertical, cerrando la forma del escalón correctamente.
 
 ### Resultado
 <img width="300" height="216" alt="image" src="https://github.com/user-attachments/assets/fc6759ca-20e2-492b-b16d-96e7d4424158" />
